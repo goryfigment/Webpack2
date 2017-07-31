@@ -1,5 +1,5 @@
-//const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 var webpack = require('webpack');
+var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -21,11 +21,20 @@ module.exports = {
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin('vendors'),
+        new UglifyJSPlugin({mangle: {except: ['$super', '$', 'exports', 'require']}}),
         new HtmlWebpackPlugin({
-             filename: 'index.html', chunks: ['index', 'vendors'], minify: {collapseWhitespace: true}, hash: true, template: './src/index.html'
+            filename: 'index.html',
+            chunks: ['index', 'vendors'],
+            minify: {collapseWhitespace: true},
+            hash: true,
+            template: './src/index.html'
         }),
         new HtmlWebpackPlugin({
-             filename: 'contact.html', chunks: ['contact', 'vendors'], minify: {collapseWhitespace: true}, hash: true, template: './src/contact.html'
+            filename: 'contact.html',
+            chunks: ['contact', 'vendors'],
+            minify: {collapseWhitespace: true},
+            hash: true,
+            template: './src/contact.html'
         })
     ]
 };

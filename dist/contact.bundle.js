@@ -1,14 +1,1 @@
-webpackJsonp([1],{
-
-/***/ 7:
-/***/ (function(module, exports, __webpack_require__) {
-
-var $ = __webpack_require__(0);
-__webpack_require__(1);
-
-$("body").append("<b>Appended text</b>");
-console.log('lol');
-
-/***/ })
-
-},[7]);
+webpackJsonp([1],{7:function(o,exports,e){var $=e(0);e(1),$("body").append("<b>Appended text</b>");var n="Just adding more js";console.log(n),console.log(n)}},[7]);
