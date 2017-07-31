@@ -54,7 +54,7 @@ body {
 ## UglifyjsWebpackPlugin
 [UglifyjsWebpackPlugin Documentation](https://github.com/webpack-contrib/uglifyjs-webpack-plugin)
 
-* Parses, compiles and mangles the Javascript a more efficient way rather than just compiling the code to one line. This is useful if you don't want your Javascript code to be unreadable.
+* Parses, compiles and mangles the Javascript a more efficient way rather than just compiling the code to one line. This is useful if you want your Javascript code to be unreadable.
 
 ## HtmlWebpackPlugin
 [HtmlWebpackPlugin Documentation](https://github.com/jantimon/html-webpack-plugin)
