@@ -1,5 +1,5 @@
-# Webpack 2
-[Webpack 2 Documentation](https://webpack.js.org/configuration/)
+# Webpack 3
+[Webpack Documentation](https://webpack.js.org/configuration/)
 
 Webpack is a module bundler that puts all assets such as Javascript, CSS, images, etc. in a dependency graph. The goal for getting familiar with webpack was to create an efficient, fast, and browser-friendly application. The following will be the list of plugins or loaders that helped achieve that goal. 
 
@@ -18,11 +18,6 @@ Note: I will be only list loaders or plugins that I have included in this git pr
 
 * Autoprefixer used to add styles with prefixes for **browser capability**. The compiled styling builds robust stylesheets that won't break on older browsers.
 
-## image-webpack-loader
-[postcss-loader Documentation](https://github.com/tcoopman/image-webpack-loader)
-
-* Minifies all PNG, JPEG, GIF and SVG images.
-
 For example: 
 
 #### Original CSS:
@@ -40,6 +35,11 @@ body {
   display: flex;
 }
 ```
+
+## image-webpack-loader
+[postcss-loader Documentation](https://github.com/tcoopman/image-webpack-loader)
+
+* Minifies all PNG, JPEG, GIF and SVG images.
 
 # Plugins
 [Plugin Documentation](https://webpack.js.org/concepts/plugins/)
