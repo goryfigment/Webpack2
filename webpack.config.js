@@ -1,22 +1,19 @@
-var webpack = require('webpack');
-var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+const path = require("path");
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        index: './static/js/index.js',
-        contact: './static/js/contact.js'
+        index: './src/js/index.js',
+        contact: './src/js/contact.js'
     },
-    output: {
-        path: __dirname + '/dist',
-        filename: '[name].bundle.js'
-    },
+    output: {path: __dirname + '/dist', filename: '[name].bundle.js'},
     module: {
         loaders: [
-            {
-                test: /\.css$/,
-                loader: 'style-loader!css-loader!postcss-loader'
-            }
+            {test: /\.css$/, loader: 'style-loader!css-loader!postcss-loader'},
+            {test: /\.(jpe?g|png|gif|svg)$/i, loader: ["file-loader?name=assets/[name].[ext]", 'image-webpack-loader']},
+            {test: /\.hbs$/, loader: 'handlebars-loader', options:{helperDirs: path.resolve(__dirname, "./src/partials/helpers")}}
         ]
     },
     plugins: [

@@ -1,7 +1,667 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f1e4ad-f1c6-4fc6-b907-719bb0f1cede" name="Default" comment="" />
+    <list default="true" id="e0f1e4ad-f1c6-4fc6-b907-719bb0f1cede" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/partials/helpers/ifCond.js" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\chalk\node_modules\supports-color\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\chalk\node_modules\supports-color\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\chalk\node_modules\supports-color\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\chalk\node_modules\supports-color\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\example\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\all_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\bool.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\dash.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\default_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\dotted.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\kv_short.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\long.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\num.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\short.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\stop_early.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\unknown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\cosmiconfig\node_modules\minimist\test\whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\CodeNode.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\MappingsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\SourceListMap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\SourceNode.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\fromStringWithSourceMap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\css-loader\node_modules\source-list-map\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\esprima\esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\.bin\uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\.bin\uglifyjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\bin\uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\ast.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\compress.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\minify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\mozilla-ast.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\output.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\propmangle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\scope.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\sourcemap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\transform.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\tools\domprops.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\tools\exports.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\tools\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\html-minifier\node_modules\uglify-js\tools\props.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\isarray\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\isarray\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\isarray\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\isarray\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\isarray\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\lib\_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\lib\_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\lib\_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\lib\_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\lib\_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\readable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\transform.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\readable-stream\writable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\htmlparser2\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\ansi-styles\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\ansi-styles\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\ansi-styles\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\ansi-styles\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\chalk\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\chalk\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\chalk\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\chalk\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\chalk\templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\docs\guidelines\plugin.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\docs\guidelines\runner.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\docs\source-maps.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\docs\syntax.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\at-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\css-syntax-error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\input.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\lazy-result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\postcss.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\previous-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\processor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\stringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\terminal-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\warn-once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\lib\warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\icss-utils\node_modules\postcss\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\isarray\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\isarray\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\isarray\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\isarray\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\node-libs-browser\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\node-libs-browser\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\node-libs-browser\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\node-libs-browser\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\node-libs-browser\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\ansi-styles\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\ansi-styles\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\ansi-styles\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\ansi-styles\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\chalk\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\chalk\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\chalk\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\chalk\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\chalk\templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\docs\guidelines\plugin.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\docs\guidelines\runner.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\docs\source-maps.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\docs\syntax.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\at-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\css-syntax-error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\input.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\lazy-result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\postcss.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\previous-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\processor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\stringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\terminal-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\warn-once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\lib\warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-loader\node_modules\postcss\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\ansi-styles\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\ansi-styles\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\ansi-styles\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\ansi-styles\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\chalk\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\chalk\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\chalk\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\chalk\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\chalk\templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\docs\guidelines\plugin.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\docs\guidelines\runner.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\docs\source-maps.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\docs\syntax.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\at-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\css-syntax-error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\input.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\lazy-result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\postcss.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\previous-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\processor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\stringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\terminal-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\warn-once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-extract-imports\node_modules\postcss\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\ansi-styles\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\ansi-styles\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\ansi-styles\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\ansi-styles\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\chalk\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\chalk\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\chalk\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\chalk\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\chalk\templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\docs\guidelines\plugin.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\docs\guidelines\runner.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\docs\source-maps.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\docs\syntax.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\at-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\css-syntax-error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\input.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\lazy-result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\postcss.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\previous-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\processor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\stringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\terminal-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\warn-once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-local-by-default\node_modules\postcss\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\ansi-styles\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\ansi-styles\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\ansi-styles\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\ansi-styles\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\chalk\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\chalk\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\chalk\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\chalk\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\chalk\templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\docs\guidelines\plugin.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\docs\guidelines\runner.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\docs\source-maps.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\docs\syntax.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\at-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\css-syntax-error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\input.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\lazy-result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\postcss.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\previous-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\processor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\stringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\terminal-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\warn-once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\lib\warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-scope\node_modules\postcss\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\ansi-styles\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\ansi-styles\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\ansi-styles\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\ansi-styles\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\chalk\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\chalk\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\chalk\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\chalk\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\chalk\templates.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\docs\guidelines\plugin.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\docs\guidelines\runner.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\docs\source-maps.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\docs\syntax.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\at-rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\container.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\css-syntax-error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\input.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\lazy-result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\postcss.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\previous-map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\processor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\result.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\rule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\stringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\terminal-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\warn-once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\lib\warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss-modules-values\node_modules\postcss\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\has-flag\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\has-flag\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\has-flag\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\has-flag\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\supports-color\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\supports-color\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\supports-color\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\supports-color\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\postcss\node_modules\supports-color\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\GOVERNANCE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\duplex-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\lib\internal\streams\BufferList.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\lib\internal\streams\destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\lib\internal\streams\stream-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\lib\internal\streams\stream.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\readable-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\readable-stream\writable-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-css-calc\node_modules\balanced-match\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-css-calc\node_modules\balanced-match\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-css-calc\node_modules\balanced-match\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-css-calc\node_modules\balanced-match\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-css-calc\node_modules\balanced-match\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-function-call\node_modules\balanced-match\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-function-call\node_modules\balanced-match\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-function-call\node_modules\balanced-match\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-function-call\node_modules\balanced-match\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\reduce-function-call\node_modules\balanced-match\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\source-list-map\lib\SingleLineNode.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\string_decoder\lib\string_decoder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\bin\extract-props.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\completion.sh.hbs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\lib\completion.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\lib\usage.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\lib\validation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\uglify-js\node_modules\yargs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\apply-extends.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\argsert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\assign.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\command.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\levenshtein.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\obj-filter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\lib\yerror.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\be.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\de.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\en.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\es.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\fr.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\hi.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\hu.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\id.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\it.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\ja.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\ko.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\nb.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\nl.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\pirate.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\pl.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\pt.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\pt_BR.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\ru.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\th.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\tr.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\zh_CN.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\locales\zh_TW.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\camelcase\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\camelcase\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\camelcase\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\camelcase\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\node_modules\string-width\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\node_modules\string-width\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\node_modules\string-width\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\node_modules\string-width\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\node_modules\cliui\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\node_modules\yargs\yargs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\static\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\static\js\contact.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Gory\PycharmProjects\webpack2\static\js\index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/postcss/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/ChangeLog" afterPath="$PROJECT_DIR$/node_modules/esprima/ChangeLog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/CodeNode.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/CodeNode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/LICENSE.BSD" afterPath="$PROJECT_DIR$/node_modules/esprima/LICENSE.BSD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" afterPath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/LICENSE" afterPath="$PROJECT_DIR$/node_modules/yargs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/MappingsContext.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/MappingsContext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/README.md" afterPath="$PROJECT_DIR$/node_modules/esprima/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/README.md" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" afterPath="$PROJECT_DIR$/node_modules/isarray/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/README.md" afterPath="$PROJECT_DIR$/node_modules/js-yaml/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/README.md" afterPath="$PROJECT_DIR$/node_modules/postcss/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/README.md" afterPath="$PROJECT_DIR$/node_modules/source-list-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/README.md" afterPath="$PROJECT_DIR$/node_modules/string_decoder/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/README.md" afterPath="$PROJECT_DIR$/node_modules/uglify-js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/README.md" afterPath="$PROJECT_DIR$/node_modules/yargs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/SourceListMap.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/SourceListMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/SourceNode.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/SourceNode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/at-rule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/binary.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/binary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/chunksorter.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/lib/chunksorter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/comment.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" afterPath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/contact.bundle.js" afterPath="$PROJECT_DIR$/dist/contact.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/contact.html" afterPath="$PROJECT_DIR$/dist/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contact.html" afterPath="$PROJECT_DIR$/src/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/container.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/css-syntax-error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/declaration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/domprops.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/domprops.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/dumper.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/dumper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esparse.js" afterPath="$PROJECT_DIR$/node_modules/esprima/bin/esparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esvalidate.js" afterPath="$PROJECT_DIR$/node_modules/esprima/bin/esvalidate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/exception.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/exception.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/exports.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/exports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/float.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/float.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/fromStringWithSourceMap.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/fromStringWithSourceMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/helpers.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.bundle.js" afterPath="$PROJECT_DIR$/dist/index.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-styles/index.js" afterPath="$PROJECT_DIR$/node_modules/ansi-styles/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/balanced-match/index.js" afterPath="$PROJECT_DIR$/node_modules/balanced-match/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chalk/index.js" afterPath="$PROJECT_DIR$/node_modules/chalk/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" afterPath="$PROJECT_DIR$/node_modules/isarray/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/index.js" afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/source-list-map/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/index.js" afterPath="$PROJECT_DIR$/node_modules/yargs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/int.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/int.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.min.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/lazy-result.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-styles/license" afterPath="$PROJECT_DIR$/node_modules/ansi-styles/license" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chalk/license" afterPath="$PROJECT_DIR$/node_modules/chalk/license" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/loader.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/map-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/package.json" afterPath="$PROJECT_DIR$/node_modules/ajv/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-styles/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/argparse/package.json" afterPath="$PROJECT_DIR$/node_modules/argparse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-code-frame/package.json" afterPath="$PROJECT_DIR$/node_modules/babel-code-frame/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/balanced-match/package.json" afterPath="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/big.js/package.json" afterPath="$PROJECT_DIR$/node_modules/big.js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/node_modules/chalk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/clap/package.json" afterPath="$PROJECT_DIR$/node_modules/clap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cliui/package.json" afterPath="$PROJECT_DIR$/node_modules/cliui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/code-point-at/package.json" afterPath="$PROJECT_DIR$/node_modules/code-point-at/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/color-convert/package.json" afterPath="$PROJECT_DIR$/node_modules/color-convert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cssnano/package.json" afterPath="$PROJECT_DIR$/node_modules/cssnano/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/decamelize/package.json" afterPath="$PROJECT_DIR$/node_modules/decamelize/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/emojis-list/package.json" afterPath="$PROJECT_DIR$/node_modules/emojis-list/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/package.json" afterPath="$PROJECT_DIR$/node_modules/esprima/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" afterPath="$PROJECT_DIR$/node_modules/get-caller-file/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/has-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-minifier/package.json" afterPath="$PROJECT_DIR$/node_modules/html-minifier/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" afterPath="$PROJECT_DIR$/node_modules/htmlparser2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/icss-utils/package.json" afterPath="$PROJECT_DIR$/node_modules/icss-utils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-base64/package.json" afterPath="$PROJECT_DIR$/node_modules/js-base64/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/package.json" afterPath="$PROJECT_DIR$/node_modules/js-yaml/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json5/package.json" afterPath="$PROJECT_DIR$/node_modules/json5/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/loader-utils/package.json" afterPath="$PROJECT_DIR$/node_modules/loader-utils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/memory-fs/package.json" afterPath="$PROJECT_DIR$/node_modules/memory-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-libs-browser/package.json" afterPath="$PROJECT_DIR$/node_modules/node-libs-browser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/os-locale/package.json" afterPath="$PROJECT_DIR$/node_modules/os-locale/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parse-json/package.json" afterPath="$PROJECT_DIR$/node_modules/parse-json/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-calc/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-calc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-colormin/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-colormin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-convert-values/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-convert-values/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-discard-comments/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-discard-comments/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-discard-duplicates/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-discard-duplicates/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-discard-empty/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-discard-empty/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-discard-overridden/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-discard-overridden/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-discard-unused/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-discard-unused/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-filter-plugins/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-filter-plugins/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-loader/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-loader/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-merge-idents/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-merge-idents/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-merge-longhand/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-merge-longhand/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-merge-rules/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-merge-rules/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-minify-font-values/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-minify-font-values/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-minify-gradients/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-minify-gradients/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-minify-params/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-minify-params/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-minify-selectors/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-minify-selectors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-normalize-charset/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-normalize-charset/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-normalize-url/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-normalize-url/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-ordered-values/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-ordered-values/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-reduce-idents/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-idents/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-reduce-transforms/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-transforms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-svgo/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-svgo/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-unique-selectors/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-unique-selectors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss-zindex/package.json" afterPath="$PROJECT_DIR$/node_modules/postcss-zindex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" afterPath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/require-directory/package.json" afterPath="$PROJECT_DIR$/node_modules/require-directory/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" afterPath="$PROJECT_DIR$/node_modules/require-main-filename/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/schema-utils/package.json" afterPath="$PROJECT_DIR$/node_modules/schema-utils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/set-blocking/package.json" afterPath="$PROJECT_DIR$/node_modules/set-blocking/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-list-map/package.json" afterPath="$PROJECT_DIR$/node_modules/source-list-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-browserify/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-browserify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-http/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-http/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/style-loader/package.json" afterPath="$PROJECT_DIR$/node_modules/style-loader/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/svgo/package.json" afterPath="$PROJECT_DIR$/node_modules/svgo/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-to-browserify/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-to-browserify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/package.json" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-sources/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack-sources/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" afterPath="$PROJECT_DIR$/node_modules/which-module/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/window-size/package.json" afterPath="$PROJECT_DIR$/node_modules/window-size/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/wrap-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/y18n/package.json" afterPath="$PROJECT_DIR$/node_modules/y18n/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/postcss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/previous-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/processor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/propmangle.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/propmangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ansi-styles/readme.md" afterPath="$PROJECT_DIR$/node_modules/ansi-styles/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/chalk/readme.md" afterPath="$PROJECT_DIR$/node_modules/chalk/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/rule.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/rule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/docs/source-maps.md" afterPath="$PROJECT_DIR$/node_modules/postcss/docs/source-maps.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/stringifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/terminal-highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" afterPath="$PROJECT_DIR$/node_modules/postcss/lib/tokenize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterPath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/vendors.bundle.js" afterPath="$PROJECT_DIR$/dist/vendors.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" />
+    </list>
     <ignored path="webpack2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,61 +682,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81477">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -85,8 +695,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/contact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_example.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/partials/template_example.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27415732">
+              <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -94,19 +734,37 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/contact.html" />
         <option value="$PROJECT_DIR$/static/js/contact.js" />
+        <option value="$PROJECT_DIR$/static/js/helpers.js" />
+        <option value="$PROJECT_DIR$/src/contact.html" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/dist/contact.html" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/partials/helpers/ifCond.js" />
+        <option value="$PROJECT_DIR$/src/partials/template_example.hbs" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/css/index.css" />
+        <option value="$PROJECT_DIR$/src/js/contact.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -123,7 +781,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -146,7 +804,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -168,18 +825,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webpack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gory\PycharmProjects\webpack2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gory\PycharmProjects\webpack2\src\assets" />
       <recent name="C:\Users\Gory\PycharmProjects\webpack2\src" />
     </key>
   </component>
@@ -263,6 +924,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -405,24 +1072,24 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14270833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -442,66 +1109,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/vendors.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0629213">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postcss.config.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -509,8 +1120,186 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/template_example.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/template_example.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/template_example.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/vendors.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0629213">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/acorn/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -518,38 +1307,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="57" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/dog.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/dog.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/bordercollie.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="61" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11460674">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05730337">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.16385542">
+            <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81477">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.09837963">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/helpers/ifCond.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2483146">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.152809">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09550562">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09550562">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/partials/template_example.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27415732">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
           <folding />
         </state>
       </provider>

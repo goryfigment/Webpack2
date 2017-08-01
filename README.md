@@ -3,7 +3,7 @@
 
 Webpack is a module bundler that puts all assets such as Javascript, CSS, images, etc. in a dependency graph. The goal for getting familiar with webpack was to create an efficient, fast, and browser-friendly application. The following will be the list of plugins or loaders that helped achieve that goal. 
 
-Note: I will be only list feature or options that I have included in this git project.
+Note: I will be only list loaders or plugins that I have included in this git project and helped achieve the goal stated above.
 
 # Loaders
 [Loader Documentation](https://webpack.js.org/concepts/loaders/)
@@ -13,15 +13,15 @@ Note: I will be only list feature or options that I have included in this git pr
 
 * This loader adds CSS to the DOM by injecting a <style> tag. This combines CSS with the HTML from a seperate file without making a request since it is inserted to the DOM when compiled.
 
-## css-loader
-[css-loader Documentation](https://github.com/webpack-contrib/css-loader)
-
-* This is a plain css loader that will return the css code interpreting the resources inside, but it will not add it to the page. For example all `@import` and `url(...)` are interpreted like `require()` and will be resolved. 
-
 ## postcss-loader
 [postcss-loader Documentation](https://github.com/postcss/postcss-loader)
 
 * Autoprefixer used to add styles with prefixes for **browser capability**. The compiled styling builds robust stylesheets that won't break on older browsers.
+
+## image-webpack-loader
+[postcss-loader Documentation](https://github.com/tcoopman/image-webpack-loader)
+
+* Minifies all PNG, JPEG, GIF and SVG images.
 
 For example: 
 
@@ -54,7 +54,7 @@ body {
 ## UglifyjsWebpackPlugin
 [UglifyjsWebpackPlugin Documentation](https://github.com/webpack-contrib/uglifyjs-webpack-plugin)
 
-* Parses, compiles and mangles the Javascript a more efficient way rather than just compiling the code to one line. This is useful if you want your Javascript code to be unreadable.
+* Parses, compiles and mangles the Javascript a more efficient way rather than just compiling the code to one line. This is useful if you want your Javascript code to be optimized and unreadable variable names.
 
 ## HtmlWebpackPlugin
 [HtmlWebpackPlugin Documentation](https://github.com/jantimon/html-webpack-plugin)

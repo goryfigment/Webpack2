@@ -1,0 +1,15 @@
+body {
+    background: black;
+    color: #ffffff;
+    height: 100vh;
+    text-align: center;
+}
+
+input {
+    cursor: pointer;
+}
+
+#info-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
