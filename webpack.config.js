@@ -12,7 +12,7 @@ module.exports = {
     module: {
         loaders: [
             {test: /\.css$/, loader: 'style-loader!css-loader!postcss-loader'},
-            {test: /\.(jpe?g|png|gif|svg)$/i, loader: ["file-loader?name=assets/[name].[ext]", 'image-webpack-loader']},
+            {test: /\.(jpe?g|png|gif|svg)$/i, loader: ["file-loader?name=assets/[path][name].[ext]", 'image-webpack-loader']},
             {test: /\.hbs$/, loader: 'handlebars-loader', options:{helperDirs: path.resolve(__dirname, "./src/partials/helpers")}}
         ]
     },
